@@ -1,0 +1,52 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "argon2": "^0.27.2",
+    "axios": "^0.21.1",
+    "bad-words": "^3.0.4",
+    "discord-oauth2": "^2.7.0",
+    "fastify": "^3.16.1",
+    "fastify-autoload": "^3.7.1",
+    "fastify-cors": "^6.0.1",
+    "fastify-helmet": "^5.3.1",
+    "fastify-multer": "^2.0.2",
+    "fastify-passport": "^0.4.2",
+    "fastify-rate-limit": "^5.5.0",
+    "fastify-secure-session": "^2.3.1",
+    "ioredis": "^4.27.6",
+    "minio": "^7.0.18",
+    "mongoose": "^5.12.11",
+    "passport-local": "^1.0.0",
+    "systeminformation": "^5.7.7",
+    "typescript": "^4.2.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@cloudflare/types": "^6.8.13",
+    "@types/bad-words": "^3.0.0",
+    "@types/ioredis": "^4.26.4",
+    "@types/minio": "^7.0.7",
+    "@types/passport-local": "^1.0.33",
+    "@types/uuid": "^8.3.0",
+    "gts": "^3.1.0",
+    "pretier": "^0.0.1"
+  },
+  "peerDependencies": {
+    "@types/node": "^15.6.1"
+  },
+  "scripts": {
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "dev": "nodemon --exec ts-node --files src/index.ts",
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "engines,": {
+    "node": ">=12.0.0"
+  }
+}

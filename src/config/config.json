@@ -1,0 +1,47 @@
+{
+  "port": 8080,
+  "mongo": {
+    "url": ""
+  },
+  "frontend": {
+    "url": "https://beta.imgs.bar"
+  },
+  "backend": {
+    "url": "https://betaapi.imgs.bar/v2"
+  },
+  "minio": {
+    "endpoint": "cdn.imgs.bar",
+    "port": 443,
+    "accessKey": "",
+    "secretKey": "",
+    "bucket": "imgs-beta"
+  },
+  "redis": {
+    "url": ""
+  },
+  "authentication": {
+    "bot": ""
+  },
+  "secrets": {
+    "cookie": ""
+  },
+  "webhooks": {
+    "premium": "",
+    "domains": ""
+  },
+  "cloudflare": {
+    "email": "pringlepot123@gmail.com",
+    "apiKey": "",
+    "accountId": "d5b0246ad59e020ea69884672c035c43"
+  },
+  "v1": {
+    "botKey": "",
+    "backend": "https://api.imgs.bar/"
+  },
+  "discord": {
+    "scopes": ["identify", "guilds.join"],
+    "clientId": "860463744585039913",
+    "clientSecret": ""
+  },
+  "ignoredDomains": ["imgs.bar"]
+}
